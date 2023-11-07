@@ -2,7 +2,7 @@
 
 Chat application in python (3.10.12) made with curses
 
-https://github.com/Marc0-H/Tchat/assets/79107936/4972268b-fab7-45df-9edc-09db309b37bb
+![tchat_gif](https://github.com/Marc0-H/Tchat/assets/79107936/b83bf442-cd67-4163-9e76-8669a5abb3cc)
 
 ## Installation
 
