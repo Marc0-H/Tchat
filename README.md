@@ -27,6 +27,16 @@ py main.py
 
 For localhost only you can just use /server and /join
 
+## Libraries used
+* socket
+* select
+* pickle
+* threading
+* curses
+* math
+* argparse
+* datetime
+
 ## Future To-do
 
 * Implement left arrow, right arrow, del
