@@ -1,8 +1,8 @@
 # Tchat - A terminal chat application
 
-Chat application in python (3.10.12) made with curses
+Chat application in python (3.10.12) in terminal made with curses
 
-![tchat_gif](https://github.com/Marc0-H/Tchat/assets/79107936/b83bf442-cd67-4163-9e76-8669a5abb3cc)
+![tchat_vid-_online-video-cutter com_(1)](https://github.com/Marc0-H/Tchat/assets/79107936/96b77e03-dd31-4f57-ae59-937ed328380f)
 
 ## Installation
 
@@ -25,6 +25,7 @@ py main.py
 /server --ip <ip_address> --port <port> --name <server_name>
 /join --ip <ip_address> --port <port>
 /clear
+/disconnect
 ```
 
 For localhost only you can just use /server and /join
