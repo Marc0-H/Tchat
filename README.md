@@ -4,7 +4,7 @@ Chat application in python (3.10.12) made with curses
 
 ## Installation
 
-Once the repo has been downloaded use the following commands to install the required python libraries:
+Once the repo has been downloaded use the following commands to install the required python libraries and run the application:
 
 ### Linux/Mac:
 ```
