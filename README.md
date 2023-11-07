@@ -2,6 +2,8 @@
 
 Chat application in python (3.10.12) made with curses
 
+https://github.com/Marc0-H/Tchat/assets/79107936/4972268b-fab7-45df-9edc-09db309b37bb
+
 ## Installation
 
 Once the repo has been downloaded use the following commands to install the required python libraries and run the application:
