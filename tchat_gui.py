@@ -181,9 +181,12 @@ class Gui():
             self.shows_first_message = True
             cursor_y = 0
             for msg in self.chatbox_messages:
-                complete_message = msg.sender_name + msg.separator + msg.message
-                self.chatbox.addstr(cursor_y, 0, complete_message, curses.color_pair(msg.text_color))
-                cursor_y = self.chatbox.getyx()[0] + 1
+                try:
+                    complete_message = msg.sender_name + msg.separator + msg.message
+                    self.chatbox.addstr(cursor_y, 0, complete_message, curses.color_pair(msg.text_color))
+                    cursor_y = self.chatbox.getyx()[0] + 1
+                except:
+                    pass
         else:
             total_lines_offset = 0
             self.shows_first_message = False
