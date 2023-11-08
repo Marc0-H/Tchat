@@ -147,7 +147,7 @@ class Gui():
                         if self.sidebar_data[i] == br():
                             self.sidebar.addstr(i, 0, self.sidebar_data[i], curses.color_pair(tchat_message.TEXT_COLOR_YELLOW))
                         else:
-                            self.sidebar.addstr(i, 0, self.sidebar_data[i][:self.sidebar_width-4 -8])
+                            self.sidebar.addstr(i, 0, self.sidebar_data[i][:self.sidebar_width-5])
                     except:
                         pass
             
